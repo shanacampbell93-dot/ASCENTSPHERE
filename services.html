@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services | Ascent Sphere</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+:root {
+  --cream: #F8F4EC;
+  --emerald: #1F6B4F;
+  --burgundy: #6B2D2F;
+  --taupe: #5D4634;
+  --gold: #C8A951;
+  --text: #2B2B2B;
+  --card: #FFFFFF;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--cream);
+  color: var(--text);
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px 60px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: var(--emerald);
+  margin-bottom: 10px;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: auto;
+  color: var(--taupe);
+  line-height: 1.6;
+}
+
+.section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: var(--card);
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card h2 {
+  color: var(--emerald);
+  font-size: 22px;
+}
+
+.tag {
+  display: inline-block;
+  background: var(--burgundy);
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+  color: var(--taupe);
+}
+
+button {
+  margin-top: 15px;
+  background: var(--gold);
+  border: none;
+  padding: 10px 18px;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Services</h1>
+  <p>Structured digital support designed to simplify systems, build clarity, and create sustainable growth across business, life, and ideas.</p>
+</div>
+
+<!-- SERVICES GRID -->
+<div class="section">
+  <div class="grid">
+<section class="intro">
+  <h1>Services</h1>
+  <p>
+    A structured ecosystem of digital support, clarity systems, and practical tools designed to help you build, organise and grow.
+  </p>
+</section>
+    <!-- GHOST DESK -->
+    <div class="card">
+      <span class="tag">Business Support</span>
+      <h2>👻 Ghost Desk</h2>
+      <p>Digital admin, workflow organisation, paperwork handling, automation, social media management, and creative support systems.</p>
+      <button>Enquire</button>
+    </div>
+
+    <!-- ROOT MAPPING -->
+    <div class="card">
+      <span class="tag">Clarity & Strategy</span>
+      <h2>🗺 Root Mapping</h2>
+      <p>Life and business clarity mapping, wellbeing structure, confidence building, decision-making support and pattern awareness.</p>
+      <button>Book Session</button>
+    </div>
+
+    <!-- BUILD STUDIO -->
+    <div class="card">
+      <span class="tag">1:1 Sessions</span>
+      <h2>🚀 Build Studio</h2>
+      <p>Deep one-to-one sessions for business building, wellbeing support, digital projects, and structured guidance with action plans.</p>
+      <button>Work With Me</button>
+    </div>
+
+    <!-- DIGITAL BUILDS -->
+    <div class="card">
+      <span class="tag">Web & Tech</span>
+      <h2>💻 Digital Builds</h2>
+      <p>Websites, landing pages, GitHub deployment, and simple digital systems for individuals and small businesses.</p>
+      <button>View Work</button>
+    </div>
+
+  </div>
+</div>
+
+</body>
+<nav class="navbar">
+
+  <div class="logo">Ascent Sphere</div>
+
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="resources.html">Resources</a>
+    <a href="marketplace.html">Marketplace</a>
+    <a href="seren-fund.html">Seren Fund</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+</nav>
+
+</html>
